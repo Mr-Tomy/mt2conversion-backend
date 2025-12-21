@@ -1,2 +1,18 @@
-# Forzar despliegue en Railway
+# Dependencias de Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.env
+.venv
+venv/
+env/
+
+# Archivos temporales
+*.tmp
+*.log
+uploads/
+outputs/
+
+# Archivo para forzar despliegue en Railway
 .railway-deploy
